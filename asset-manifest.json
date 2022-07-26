@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tg-webPage/static/css/main.7d68ea11.css",
+    "main.js": "/tg-webPage/static/js/main.d87b39f3.js",
+    "static/media/Map.svg": "/tg-webPage/static/media/Map.3f66eea668f49451c64674dae065e1df.svg",
+    "static/media/person.svg": "/tg-webPage/static/media/person.e3816557096eb0e30a949f2071cf0eb5.svg",
+    "index.html": "/tg-webPage/index.html",
+    "main.7d68ea11.css.map": "/tg-webPage/static/css/main.7d68ea11.css.map",
+    "main.d87b39f3.js.map": "/tg-webPage/static/js/main.d87b39f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d68ea11.css",
+    "static/js/main.d87b39f3.js"
+  ]
+}
