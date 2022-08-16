@@ -1,66 +1,11 @@
 @import url(//db.onlinewebfonts.com/c/b86c0f3afb7b6eb1952be1d4c753140c?family=Al-Jazeera-Arabic-Regular);
-:root {
-  --bgColor: rgb(255, 255, 255);
-  --mainColor: #fbd675;
-  --mapColor: #ebebeb;
-  --textColor: rgb(0, 0, 0);
-  --footerColor: #f8f8f8;
-  --iconsColor: #b1b1b1;
-}
 
-[data-theme="dark"] {
-  --bgColor: rgb(0, 0, 0);
-  --mainColor: #fbd675;
-  --mapColor: #ebebeb;
-  --textColor: #fff;
-  --footerColor: #85858515;
-  --iconsColor: #b1b1b1;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-
-  transition: all .5s ease-in-out;
-  font-family: "Al-Jazeera-Arabic-Regular";
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-
-  /* padding: 0; */
-  /* height: 100vh; */
-  /* cursor: none; */
-  margin: 0;
   font-family: "Al-Jazeera-Arabic-Regular";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  transition: all .5s ease-in-out;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f100;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #b1b1b1;
-  border-radius: 5px;
-  border: #fbd675 1px solid;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #fbd675;
+  transition: all 0.5s ease-in-out;
+  direction: rtl;
 }
